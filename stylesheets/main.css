@@ -28,10 +28,10 @@ a.navbar-brand{
     font-family: 'ButlerRegular';
     color: white;
 }
-.carousel-caption{
-position:absolute;
-left:4rem;
-bottom:4rem;
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
 }
 .sitting_man{
     background-image: url(../images/sitting_man.png);
@@ -80,4 +80,8 @@ bottom:4rem;
 }
 .media-body p{
     font-size: 2.8rem;
+}
+container-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
 }
