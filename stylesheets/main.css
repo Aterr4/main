@@ -29,8 +29,8 @@ a.navbar-brand{
     color: white;
 }
 .carousel-indicators li {
-  width: 10px;
-  height: 10px;
+  width: 40px;
+  height: 40px;
   border-radius: 100%;
 }
 .sitting_man{
@@ -84,4 +84,11 @@ a.navbar-brand{
 container-fluid{
     padding-left: 0px;
     padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.mail{
+    background-image: url(../images/ben-rosett-10614-unsplashro.png);
+    background-size: cover;
+    height: 960px;
 }
