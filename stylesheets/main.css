@@ -28,6 +28,11 @@ a.navbar-brand{
     font-family: 'ButlerRegular';
     color: white;
 }
+.carousel-caption{
+position:absolute;
+left:4rem;
+bottom:4rem;
+}
 .sitting_man{
     background-image: url(../images/sitting_man.png);
     height: auto;
