@@ -1,4 +1,8 @@
-
+@media (min-width: 767px;){
+    body,html{
+        font-size: 5px;
+    }
+}
 body,html{
 	font-size: 10px;
     color: white;
@@ -28,9 +32,9 @@ a.navbar-brand{
     font-family: 'ButlerRegular';
     color: white;
 }
-.carousel-indicators li {
-  width: 40px;
-  height: 40px;
+.carousel-indicators li  {
+  max-width: 15px;
+  min-height: 15px;
   border-radius: 100%;
 }
 .sitting_man{
@@ -55,8 +59,11 @@ a.navbar-brand{
 }
 .bg3{
     background-image: url(../images/alex-holyoake-235022-unsplashor.png);
-    background-size: cover;
-    height: 960px;  
+    background-size: 100% 100%;
+    width: 100%;
+    height: 960px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 .bg4{
     background-image: url(../images/Mask%20Group%203.png);
