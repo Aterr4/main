@@ -40,12 +40,6 @@ a.navbar-brand {
     font-family: 'ButlerRegular';
     color: white;
 }
-
-.carousel-caption {
-    position: relative;
-    top: 50px;
-}
-
 .carousel-indicators li {
     max-width: 15px;
     min-height: 15px;
@@ -125,6 +119,8 @@ container-fluid {
     background-image: url(../images/ben-rosett-10614-unsplashro.png);
     background-size: cover;
     height: 960px;
+    line-height: 3;
+    text-align: center;
 }
 
 footer {
@@ -141,4 +137,17 @@ footer {
 
   display: flex;
   align-items: center;
+}
+.mail-form h3{
+    font-family:'ButlerRegular';
+    font-size: 6.4rem;
+    color: white;
+}
+.mail-form h5{
+    font-family: Roboto;
+    color: white;
+    line-height: 3;
+}
+.mail-form input{
+    max-width: 400px;
 }
