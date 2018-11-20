@@ -1,4 +1,4 @@
-@media (min-width:767px) {
+@media (max-width:767px) {
 
     body,
     html {
@@ -126,6 +126,7 @@ container-fluid {
 footer {
     background: #1A1A1A;
     color: white;
+    padding-left: 30px;
 }
 
 .fab {
@@ -150,4 +151,7 @@ footer {
 }
 .mail-form input{
     max-width: 400px;
+}
+.c-grey{
+    color: #AAAAAA;
 }
