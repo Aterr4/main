@@ -34,8 +34,9 @@ a.navbar-brand {
 
 .navbar-toggler-icon::before {
     content: "\f0c9";
-    background: white;
-    font-size: 2rem;
+    color: white;
+    font-size: 5rem;
+    margin-bottom: 50px;
 }
 
 .nav-link {
@@ -92,11 +93,24 @@ a.navbar-brand {
 
 .bg3 {
     background-image: url(../images/alex-holyoake-235022-unsplashor.png);
-    background-size: 100% 100%;
-    width: 100%;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
     height: 960px;
-    margin-left: 0px;
-    margin-right: 0px;
+}
+.bg3>.container{
+    padding-top: 30%;
+     transform: translateY(-80%);
+    transform: translateX(60%);
+}
+.bg3>.container h3{
+    font-size: 8.1rem;
+    line-height: 8rem;
+    font-family: 'ButlerRegular';
+}
+.bg3>.container p{
+    font-size: 4.8rem;
+    font-family: 'ButlerRegular';
 }
 
 .bg4 {
@@ -118,14 +132,27 @@ a.navbar-brand {
     color: white;
     text-align: center;
     padding-top: 30px;
+    padding-left: 40px;
+    text-align: left;
 }
 
 .media-body h3 {
     font-size: 4.8rem;
+    font-family: 'ButlerRegular';
 }
 
 .media-body p {
     font-size: 2.8rem;
+    font-family: Roboto;
+    font-weight: lighter;
+    color: #AAAAAA;
+}
+.media-body small{
+    font-size: 2.4rem;
+    font-family: Roboto;
+    color: #AAAAAA;
+    font-weight: lighter;
+    font-style: italic;
 }
 
 container-fluid {
@@ -137,7 +164,7 @@ container-fluid {
 
 .mail {
     background-image: url(../images/ben-rosett-10614-unsplashro.png);
-    background-size: cover;
+    background-size: contain;
     height: 960px;
     line-height: 3;
     text-align: center;
@@ -154,9 +181,7 @@ footer {
 }
 
 .vertical-center {
-
     min-height: 100vh;
-
     display: flex;
     align-items: center;
 }
@@ -177,15 +202,28 @@ footer {
     max-width: 300px;
     width: 100%;
 }
+.mail-form button{
+    max-width: 50px;
+    width: 100%;
+}
 
 .c-grey {
     color: #AAAAAA;
 }
 
-@media (max-width:767px) {
+@media (max-width:768px) {
 
     body,
     html {
-        font-size: 6px;
+        font-size: 5px;
     }
 }
+@media (max-width:992px) {
+
+    body,
+    html {
+        font-size: 7px;
+    }
+}
+
+
