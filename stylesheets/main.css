@@ -5,6 +5,11 @@ html,
     color: white;
     margin: 0px;
     padding: 0px;
+    max-width: 100%;
+    height: auto;
+}
+* {
+    box-sizing: border-box;
 }
 
 
@@ -69,9 +74,11 @@ a.navbar-brand {
 
 .sitting_man {
     background-image: url(../images/sitting_man.png);
-    height: auto;
-    background-size: cover;
-    height: 800px;
+    display: inline-block;
+    width: 100%;
+    background-size:cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
 }
 
 .new_arrival {
@@ -93,10 +100,13 @@ a.navbar-brand {
 
 .bg3 {
     background-image: url(../images/alex-holyoake-235022-unsplashor.png);
+    display: inline-block;
+    width: 100%;
     background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
     margin: 0px;
     padding: 0px;
-    height: 960px;
 }
 .bg3>.container{
     padding-top: 30%;
@@ -115,7 +125,11 @@ a.navbar-brand {
 
 .bg4 {
     background-image: url(../images/Mask%20Group%203.png);
-    background-size: cover;
+    display: inline-block;
+    width: 100%;
+    background-size:cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
 }
 
 .media {
@@ -164,10 +178,15 @@ container-fluid {
 
 .mail {
     background-image: url(../images/ben-rosett-10614-unsplashro.png);
-    background-size: contain;
-    height: 960px;
     line-height: 3;
     text-align: center;
+    display: inline-block;
+    width: 100%;
+    background-size:cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
 }
 
 footer {
@@ -224,6 +243,10 @@ footer {
     html {
         font-size: 7px;
     }
+    .mail-form input {
+    max-width: 200px;
+    width: 100%;
+}
 }
 
 
