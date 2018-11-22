@@ -1,7 +1,7 @@
 body,
 html,
 .heading {
-    font-size: 10px;
+    font-size: 9px;
     color: white;
     margin: 0px;
     padding: 0px;
@@ -162,7 +162,7 @@ a.navbar-brand {
     position: absolute; 
     top:20%;
     right:10%;
-        text-align: left;
+    text-align: left;
 }
 .marcelo h3{
     font-size: 15rem;
@@ -170,7 +170,7 @@ a.navbar-brand {
     font-weight: bold;
 }
 .marcelo p{
-    font-size: 4.8rem;
+    font-size: 4rem;
     font-family: 'ButlerRegular';
 }
 
@@ -297,6 +297,9 @@ footer {
         max-width: 200px;
         width: 100%;
     }
+    footer{
+        font-size:12px;
+    }
 
     .zaglowie {
         height: 61.38px;
@@ -307,7 +310,10 @@ footer {
 
     body,
     html {
-        font-size: 6px;
+        font-size: 5px;
+    }
+    footer{
+        font-size:11px;
     }
 
     .zaglowie {
@@ -322,7 +328,7 @@ footer {
         font-size: 3px;
     }
     footer{
-        font-size:5px;
+        font-size:10px;
     }
 
     .zaglowie {
