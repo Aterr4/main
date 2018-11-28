@@ -48,13 +48,6 @@ footer a{
     text-align: left;
 }
 
-.zaglowie {
-    height: 78.63px;
-    background: #1A1A1A;
-}
-
-
-
 .carousel  {
     width: 100%;
     height: 100%;
@@ -290,9 +283,6 @@ footer h5 {
         font-size: 12px;
     }
 
-    .zaglowie {
-        height: 61.38px;
-    }
 }
 
 @media (max-width:768px) {
@@ -313,28 +303,24 @@ footer h5 {
         font-size: 11px;
     }
 
-    .zaglowie {
-        height: 44.13px;
-    }
 }
 
 @media (max-width:576px) {
 
     body,
     html {
-        font-size: 4px;
+        font-size: 3.5px;
     }
     .mail-form input {
-        max-width: 150px;
+        max-width: 130px;
         width: 100%;
+    }
+    .nav-items li{
+        margin-left: 20px;
     }
     .mail-form  button{
         max-width: 40px;
     }
     footer {
         font-size: 10px;
-    }
-
-    .zaglowie {
-        height: 25.88px;
     }
