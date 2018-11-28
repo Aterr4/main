@@ -22,7 +22,7 @@ footer a{
     margin: 0;
     padding: 0;
     list-style: none;
-    padding: 20px 0;
+    padding: 15px 0;
     background: #1A1A1A;
 }
 .brand {
@@ -246,23 +246,24 @@ footer h5 {
 }
 
 .mail-form input {
-    max-width: 300px;
+    max-width: 370px;
     width: 100%;
-     border: none;
+    border: none;
     margin: 0;
     position: relative;
     height: 50px;
     padding: 20px;
     display: inline-block;
+    margin-top: 30px;
 }
 
 .mail-form button {
     max-width: 50px;
     width: 100%;
     border: none;
-    margin-right:10%;
     height: 50px;
     max-width: 70px;
+    margin-top: 30px;
 }
 ::-webkit-input-placeholder {
     font-size: 2rem;
@@ -281,7 +282,7 @@ footer h5 {
     }
 
     .mail-form input {
-        max-width: 200px;
+        max-width: 270px;
         width: 100%;
     }
 
@@ -300,6 +301,13 @@ footer h5 {
     html {
         font-size: 5px;
     }
+    .mail-form input {
+        max-width: 200px;
+        width: 100%;
+    }
+    .mail-form  button{
+        max-width: 50px;
+    }
 
     footer {
         font-size: 11px;
@@ -314,9 +322,15 @@ footer h5 {
 
     body,
     html {
-        font-size: 3px;
+        font-size: 4px;
     }
-
+    .mail-form input {
+        max-width: 150px;
+        width: 100%;
+    }
+    .mail-form  button{
+        max-width: 40px;
+    }
     footer {
         font-size: 10px;
     }
